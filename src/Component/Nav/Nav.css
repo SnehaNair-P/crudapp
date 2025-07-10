@@ -1,0 +1,131 @@
+.Navbar {
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+  position: relative;
+}
+
+.logo img {
+  width: 70px;
+  height: 70px;
+}
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.list {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+}
+
+.list a {
+  color: white;
+  text-decoration: none;
+}
+
+.user-logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.logout button {
+  color: whitesmoke;
+  background-color: transparent;
+  height: 50px;
+  width: 100px;
+  font-size: 15px;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+}
+
+/* ##################################################### MEDIA QUERY PHONE ########################################################### */
+@media only screen and (max-width: 576px) {
+.Navbar {
+  justify-content: space-between;
+}
+  .hamburger {
+    display: block;
+  }
+
+  .nav-items {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: cadetblue;
+    margin-top: 10px;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+
+  .nav-items.open {
+    display: flex;
+  }
+
+  .list {
+    flex-direction: column;
+    gap: 15px;
+    font-size: 18px;
+  }
+
+  .logout button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+
+/* ##################################################### MEDIA QUERY TAB ########################################################### */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .Navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+  }
+
+  .logo img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .list {
+    gap: 20px;
+    font-size: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-items {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .user-logo img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .logout button {
+    width: 90px;
+    height: 45px;
+    font-size: 14px;
+  }
+}

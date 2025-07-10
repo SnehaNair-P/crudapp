@@ -1,0 +1,27 @@
+.Add-form{
+    margin: 20px 10px;
+}
+.Add-form1{
+    background-color: whitesmoke;
+    border: 1px solid cadetblue;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+.Add-form label{
+  margin: 8px 15px;
+}
+.Add-form input{
+  margin: 0px 10px;
+  width: 90%;
+}
+.description textarea{
+  margin: 0px 10px;
+  width: 90%;
+}
+.add-product-form button{
+    width: 250px;
+    margin: 10px 52px;
+    margin-bottom: 30px;
+    background-color: #0d6efd;
+}
+

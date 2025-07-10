@@ -1,0 +1,51 @@
+.form {
+    margin: 20px 20px;
+}
+
+.edit-form {
+    background-color: whitesmoke;
+    border: 1px solid cadetblue;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+.edit-form button {
+    width: 250px;
+    margin: 0px 52px;
+    margin-bottom: 30px;
+    background-color: green;
+}
+
+h3 {
+    color: forestgreen;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* ############################################ MEDIA QUERY PHONE #################################################### */
+@media only screen and (max-width: 576px) {
+  .form {
+    margin: 10px;
+  }
+
+  .edit-form {
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 15px;
+  }
+
+  .edit-form button {
+    width: 100%;
+    max-width: 250px;
+    margin: 20px auto 10px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  h3 {
+    font-size: 22px;
+    text-align: center;
+  }
+}

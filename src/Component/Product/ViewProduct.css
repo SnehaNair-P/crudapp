@@ -1,0 +1,106 @@
+.view-pro{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    margin: 80px auto;
+}
+
+.view-pro img{
+    width: 250px;
+    height: 300px;
+    margin-left: 40px;
+}
+.content{
+    margin: 50px 55px;
+}
+.view-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    background-color: rgb(242, 242, 242);
+    min-height: 100vh;
+    margin-bottom: 50px;
+}
+.price p{
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+}
+.category p{
+    color: darkmagenta;
+    font-size: 18px;
+}
+.view-details h2{
+    font-family: math;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.description p{
+    font-size: 18px;
+}
+.view-pro button{
+    background-color: whitesmoke;
+    color: blueviolet;
+    width: 110px;
+    height: 45px;
+    border: 2px solid blueviolet;
+}
+
+/* ##################################### MEDIA QUERY  PHONE ############################################### */
+
+@media only screen and (max-width: 576px) {
+  .view-pro {
+        flex-direction: row;
+        width: 85%;
+  }
+
+  .view-pro img {
+    width: 80%;
+    height: auto;
+    margin: 20px auto 10px;
+    display: block;
+  }
+
+  .content {
+    margin: 20px 10px;
+ 
+  }
+
+  .view-wrapper {
+    padding: 20px 0;
+  }
+
+  .view-details h2 {
+    font-size: 22px;
+            font-weight: normal;
+        text-align: justify;
+  }
+
+  .price p {
+    font-size: 20px;
+  }
+
+  .category p {
+    font-size: 16px;
+  }
+
+  .description p {
+    font-size: 16px;
+  }
+
+  .view-pro button {
+ 
+    max-width: 200px;
+    margin-top: 15px;
+    font-size: 16px;
+  }
+}

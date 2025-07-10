@@ -1,0 +1,67 @@
+.login-form{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid darkgrey;
+    border-radius: 10px;
+    margin: 150px 500px;
+    background-color: ghostwhite;
+}
+.login-form h2{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.Login-control{
+    width: 75%;
+    height: 50px;
+    margin: 15px 60px;
+}
+.Login-control input{
+    background-color: aliceblue;
+}
+.form-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.form-button button{
+    width: 275px;
+    height: 42px;
+    padding: 5px 10px;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+}
+
+
+/* ##################################################### MEDIA QUERY PHONE ########################################################### */
+@media only screen and (max-width: 576px) {
+   .login-form{ 
+    width: 90%;
+    margin: 250px 23px;
+   }
+   .Login-control {
+    width: 85%;
+    margin: 15px 30px;
+   }
+
+}
+
+/* ##################################################### MEDIA QUERY TAB ########################################################### */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+       .login-form{ 
+        width: 75%;
+        margin: 250px 90px;
+   }
+   .Login-control {
+    width: 85%;
+    margin: 15px 50px;
+   }
+   .form-button button {
+    width: 444px;
+    margin-left: 10px;
+   }
+}
