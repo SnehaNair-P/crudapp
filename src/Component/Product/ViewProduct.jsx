@@ -41,7 +41,7 @@ function ViewProduct() {
                         <p>{item.description}</p>
                     </div>
                     <div>
-                        <button onClick={() =>navigate('/home')} >GO BACK</button>
+                        <button onClick={() =>navigate('/')} >GO BACK</button>
                     </div>
                 </div>
             </div>

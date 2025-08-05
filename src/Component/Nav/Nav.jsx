@@ -25,7 +25,7 @@ function Navbar() {
   return (
     <div className="Navbar">
       <div className="logo">
-        <Link to="/home">
+        <Link to="/">
         <img src={logo} alt="logo" />
         </Link>
       </div>
@@ -36,7 +36,7 @@ function Navbar() {
 
       <div className={`nav-items ${isOpen ? 'open' : ''}`}>
         <div className="list">
-          <a href="home">Home</a>
+          <a href="/">Home</a>
           <a href="#">About</a>
           <a href="contacts">Contact</a>
         </div>
